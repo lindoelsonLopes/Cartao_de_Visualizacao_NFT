@@ -22,8 +22,8 @@ body {
   padding: 20px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 10px;
-  box-shadow: 25px 25px 70px 25px rgba(100,150,255,0.20),
-  -10px -10px 30px rgba(100,150,255,0.25);
+  box-shadow: 25px 25px 70px 25px rgba(10, 15, 27, 0.2),
+  -10px -10px 30px rgba(10, 15, 27, 0.2);
 }
 
 .image #design {
@@ -61,6 +61,33 @@ body {
 
 .info-two {
   color: hsl(215, 51%, 70%);
+}
+
+hr {
+  border-color: hsl(215, 51%, 70%);
+}
+
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#image-avatar {
+ width: 50px;
+ border-radius: 50px;
+ border: 1px solid white; 
+}
+
+.paragraph-avatar {
+    color: hsl(215, 51%, 70%);
+    margin: 10px;
+}
+
+.paragraph-avatar2 {
+    color: white;
 }
 
 .footer {
