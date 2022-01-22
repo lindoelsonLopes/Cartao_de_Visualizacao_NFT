@@ -6,16 +6,19 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
 }
 
 .container-card {
-  position: relative;
-  width: 270px;
-  height: 420px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
   padding: 20px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 10px;
@@ -30,3 +33,42 @@ body {
   border-radius: 10px;
 }
 
+.container-section {
+  display: flex;
+  flex-direction: column;
+}
+
+ h3 {
+  padding: 10px 0px;
+  color: white;
+}
+
+.paragraph-two {
+  font-size: 16px;
+  color: hsl(215, 51%, 70%);
+  padding: 20px 0;  
+}
+
+.paragraph-Three {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.info-one {
+  color: hsl(178, 100%, 50%);
+}
+
+.info-two {
+  color: hsl(215, 51%, 70%);
+}
+
+.footer {
+  font-size: 11px;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer a {
+    color: hsl(228, 45%, 44%);
+}
